@@ -1,5 +1,5 @@
 deployment:
-  appName: api-component
+  appName: api-github-public-component
   image: nginx:1.27
   replicas: 1
   ports:

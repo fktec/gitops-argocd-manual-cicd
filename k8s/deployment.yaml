@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: api-deployment
+  name: api-github-public-component
   labels:
-    app: api-component
+    app: api-github-public-component
 spec:
   replicas: 1
   selector: 
     matchLabels:
-      app: api-component
+      app: api-github-public-component
   template:
     metadata:
       labels:
-        app: api-component
+        app: api-github-public-component
     spec:
       containers:
-        - name: api-component
+        - name: api-github-public-component
           image: nginx:1.27
           ports:
             - name: http
