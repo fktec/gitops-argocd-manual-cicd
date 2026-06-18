@@ -1,5 +1,5 @@
 deployment:
-  appName: api-github-public-component
+  appName: api-helm-github-public-component
   image: nginx:1.27
   replicas: 1
   ports:
